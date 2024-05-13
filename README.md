@@ -13,4 +13,4 @@ PROGRAMMING LANGUAGE: - C++
 
 CONNECTIONS:  - SERVO MOTOR (RED WIRE) TO ARDUINO PIN +5V<BR>
                                  SERVO MOTOR (BROWN WIRE) TO ARDUINO GND<br>
-                                 SERVO MOTOR (YELLOW WIRE) TO ARDUINO 13<br>
+                                 SERVO MOTOR (YELLOW WIRE) TO ARDUINO 9<br>
