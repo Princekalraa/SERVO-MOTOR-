@@ -1,0 +1,21 @@
+//CODE: -
+
+#include <Servo.h>                         
+Servo MOTOR; 
+void setup()   {   // motor is user defined and given pins
+MOTOR.attach(13);
+}
+void loop() {
+MOTOR.write(0);   // motor will move 0 degrees
+delay(500);
+MOTOR.write(45);  // motor will move 45 degrees
+delay(500);
+MOTOR.write(90);  // motor will move 90 degrees
+delay(500);
+MOTOR.write(120);  // motor will move 120 degrees
+delay(500);
+MOTOR.write(160);  // motor will move 160 degrees
+delay(500);
+MOTOR.write(180);  // motor will move 180 degrees
+delay(500);
+}
