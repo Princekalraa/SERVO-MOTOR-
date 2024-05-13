@@ -3,7 +3,7 @@
 #include <Servo.h>                         
 Servo MOTOR; 
 void setup()   {   // motor is user defined and given pins
-MOTOR.attach(13);
+MOTOR.attach(9);
 }
 void loop() {
 MOTOR.write(0);   // motor will move 0 degrees
